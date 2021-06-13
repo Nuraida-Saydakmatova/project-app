@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  max-width: 1178px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* .App img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid crimson;
+  cursor: pointer;
+} */
+.img{
+  width: 300px;
+  height: 300px;
+}

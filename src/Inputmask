@@ -1,0 +1,16 @@
+import React from 'react';
+import InputMask from 'react-input-mask';
+
+
+class InputM extends React.Component {
+    render() {
+        return(
+            <>
+            <InputMask mask="99/99/9999" value={props.value} onChange={props.onChange}>
+    {(inputProps) => <MaterialInput {...inputProps} type="tel" disableUnderline />}
+            </InputMask>
+            </>
+        )
+    }
+}
+export default InputM;
